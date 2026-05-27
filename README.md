@@ -33,10 +33,6 @@ pas juste en générant du code avec l'IA.
 ## 📁 Structure du repo
 roadmap-fullstack/
 ├── phase-1-html/
-│   ├── lecon-1-bases/
-│   ├── lecon-2-semantique/
-│   ├── lecon-3-formulaires/
-│   └── projet-final/
 ├── phase-2-css/
 ├── phase-3-javascript/
 ├── phase-4-git/
