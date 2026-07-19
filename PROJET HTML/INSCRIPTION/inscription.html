@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>inscription</title>
+    </head>
+    <body>
+        <header>
+            <h1>Saniya</h1>
+            <nav>
+                <a href="#">Acceuil</a>
+                <a href="#">Signaler</a>
+                <a href="#">Contact</a>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h2>Formulaire</h2>
+                <form action="/register" method="post">
+                    <label for="nom">Nom</label>
+                    <input type="text" name="nom" id="nom" placeholder="Nom" required> <br>
+                     <label for="prenom">prenom</label>
+                    <input type="text" name="prenom" id="prenom" placeholder="Prenom" required> <br>
+                     <label for="mail">Email</label>
+                    <input type="email" name="mail" id="mail" placeholder="Email" required> <br>
+                    <label for="password">Mot de passe</label> 
+                    <input type="password" name="password" id="password" minlength="8" placeholder="mot de passe(8-caractères)" required><br>
+                    <label for="confirm">Confirmaion</label>
+                    <input type="password" id="confirm" name="confirm" placeholder="********" required> <br>
+                    <label for="date">Date de naissance</label> 
+                    <input type="date" name="date" id="date" required> <br>
+                <fieldset>
+                    <legend>Genre</legend>
+                    <label for="sexe">homme</label>
+                    <input type="radio" name="sexe" id="sexe"  >
+                    <label for="femin">femme</label>
+                    <input type="radio" name="sexe" id="femin" >
+                    <label for="autres">Autres</label>
+                    <input type="radio" name="sexe" id="autres" > <br>
+            
+                </fieldset>
+                <fieldset>
+                    <legend>Centres d'interêt</legend>
+                    <label for="game">Jeu video</label>
+                    <input type="checkbox" name="interets[]" id="game">
+                    <label for="lire">Lecture</label>
+                    <input type="checkbox" name="interets[]" id="lire">
+                    <label for="son">Musique</label>
+                    <input type="checkbox" name="interets[]" id="son">
+                    <label for="programm">Programmation </label>
+                    <input type="checkbox" name="interets[]" id="programm">
+                     <label for="film">Serie TV </label>
+                    <input type="checkbox" name="interets[]" id="film"><br>
+                </fieldset>
+
+                    <label for="pays">Pays:</label>
+                   <select id="pays" name="pays">
+                    <option value="seychelle">Seychelle</option>
+                    <option value="cap">Cap vert</option>
+                    <option value="ivory coast" selected>côte d'ivoire</option>
+                    <option value="Argent">Argentine</option>
+                    <option value="port">Portugal</option>
+                    <option value="ang">Angleterre</option>
+                    <option value="esp">Espagne</option>
+                    <option value="fra">France</option>
+                   </select> <br>
+                   <label for="msg">message</label> <br>
+                   <textarea name="msg" id="msg" placeholder="Pourquoi voulez-vous  vous inscrire ?" cols="20" rows="10"></textarea> <br>
+                   <label for="cgv">Accepter les conditions</label>
+                   <input type="checkbox" name="cgv" id="cgv"> <br>
+
+                   <button type="submit" class="btn-formulaire">Envoyer</button>
+                    
+                </form>
+            </section>
+        </main>
+        <footer>copyright © 2026 </footer>
+    </body>
+</html>

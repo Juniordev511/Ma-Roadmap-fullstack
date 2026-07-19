@@ -15,64 +15,40 @@ pas juste en générant du code avec l'IA.
 
 ---
 
-## 📍 Progression
-
-| Phase | Sujet | Statut |
-|-------|-------|--------|
-| Phase 1 | HTML | 🔄 En cours |
-| Phase 2 | CSS | ⏳ À venir |
-| Phase 3 | JavaScript | ⏳ À venir |
-| Phase 4 | Git & GitHub | ⏳ À venir |
-| Phase 5 | React | ⏳ À venir |
-| Phase 6 | Back-end (Node.js / PHP) | ⏳ À venir |
-| Phase 7 | Base de données (MySQL) | ⏳ À venir |
-| Phase 8 | Projet Full-Stack final | ⏳ À venir |
-
 ---
 
 ## 📁 Structure du repo
+
 roadmap-fullstack/
-├── phase-1-html/
-├── phase-2-css/
-├── phase-3-javascript/
-├── phase-4-git/
-├── phase-5-react/
-├── phase-6-backend/
-├── phase-7-database/
+├── PROJET FRONTEND
+├── HTML (TERMINÉ)
+├── CSS (EN COURS)
+├── JAVA SCRIPT
+├── REACT/
+├── PROJET GIT/
+├── PROJET C
+├── PROJET BACKEND/
+├── PYTHON
+├── DJANGO
+├── PHP
+├── PROJET DATABASE/
+├── POSTGRESQL
+├── MARIADB
 └── projet-fullstack-final/
 
 ## 🛠️ Stack visée
 
-
-
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-
-
-
 
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-
-
-
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
-
-
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
-
-
-
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 
-
-
-
 ![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
-
-
 
 ---
 
